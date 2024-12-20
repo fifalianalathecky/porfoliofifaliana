@@ -1,0 +1,272 @@
+@charset "UTF-8";
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(19, 19, 28);
+  display: flex;
+}
+@media screen and (max-width: 320px) {
+  body {
+    flex-direction: column;
+  }
+}
+body nav {
+  position: sticky;
+  top: 0;
+  border: 1px solid white;
+  height: fit-content;
+}
+body main {
+  padding: 0 25px;
+}
+
+button {
+  width: 4cm;
+  height: 1cm;
+  border-radius: 20px;
+  background-color: plum;
+  color: white;
+}
+
+.bloc-navigation {
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(63, 10, 63);
+}
+@media screen and (max-width: 320px) {
+  .bloc-navigation {
+    width: 1000px;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+  }
+}
+.bloc-navigation ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 320px) {
+  .bloc-navigation ul {
+    position: absolute;
+    bottom: 0;
+    left: 2cm;
+    width: inherit;
+    display: flex;
+  }
+}
+.bloc-navigation .image {
+  text-align: center;
+  padding-top: 5px;
+}
+.bloc-navigation img {
+  width: 6cm;
+  height: 7CM;
+  border-radius: 100px;
+}
+@media screen and (max-width: 320px) {
+  .bloc-navigation img {
+    width: 2cm;
+    height: 2cm;
+  }
+}
+.bloc-navigation .titre {
+  word-wrap: break-word;
+  font-size: 10px;
+  text-align: center;
+  color: azure;
+}
+@media screen and (max-width: 320px) {
+  .bloc-navigation .titre {
+    font-size: 5px;
+  }
+}
+.bloc-navigation li a {
+  text-decoration: none;
+  color: azure;
+}
+@media screen and (max-width: 320px) {
+  .bloc-navigation li a {
+    padding-right: 20px;
+    font-size: 5px;
+  }
+}
+.bloc-navigation li {
+  margin-top: 30px;
+}
+
+.homes {
+  width: 700px;
+  display: block;
+  margin-left: 2cm;
+  border-bottom: inset blue 3px;
+}
+@media screen and (max-width: 320px) {
+  .homes {
+    flex-direction: column;
+  }
+}
+.homes .nom {
+  color: azure;
+  margin-bottom: 5px;
+  font-size: 30px;
+  border-bottom: double blue 2px;
+}
+.homes .nom .name {
+  color: rgb(63, 10, 63);
+}
+.homes .paragraph {
+  padding-top: 1cm;
+  font-size: 20px;
+  color: plum;
+}
+.homes .paragraph .specifc {
+  color: aqua;
+}
+.homes .paragraph button {
+  width: 4cm;
+  height: 1cm;
+  border-radius: 20px;
+  background-color: plum;
+  margin-left: 3cm;
+  color: white;
+  margin-top: 20px;
+}
+.homes .fille img {
+  width: 5cm;
+  height: 5cm;
+  border-radius: 100px;
+  margin-left: 100%;
+}
+
+.element-liste {
+  margin-top: 10px;
+}
+.element-about {
+  width: 800px;
+  margin-top: 1cm;
+  border-bottom: groove blue 2px;
+  margin-left: 1cm;
+}
+.element-about .fas {
+  width: 40%;
+  font-size: 30px;
+  color: darkolivegreen;
+  text-align: center;
+  margin-top: 8cm;
+  margin-left: 3cm;
+}
+.element-about .list2 {
+  display: flex;
+}
+.element-about h3 {
+  text-align: center;
+  font-size: 30px;
+  color: aqua;
+  text-decoration-line: underline;
+}
+.element-about h4 {
+  text-align: center;
+  color: goldenrod;
+  font-size: 20px;
+}
+.element-about li {
+  list-style-type: none;
+}
+.element-about .entite {
+  color: aqua;
+}
+.element-about .entite li {
+  margin-top: 1cm;
+}
+.element-about .entite li span {
+  color: plum;
+  font-size: 30px;
+}
+.element-about .surmoi {
+  display: flex;
+  margin-left: 1cm;
+  justify-content: space-between;
+  margin-top: 1cm;
+  margin-bottom: 20px;
+}
+.element-about .surmoi .pastemps {
+  width: 25%;
+  border: groove white 2px;
+  border-radius: 100px;
+  background-color: aqua;
+}
+.element-about .surmoi .qaulités {
+  width: 25%;
+  border: groove white 2px;
+  border-radius: 100px;
+  background-color: rgb(31, 86, 86);
+}
+.element-about .surmoi .educat {
+  width: 25%;
+  border: groove white 2px;
+  border-radius: 100px;
+  background-color: rgb(3, 163, 110);
+}
+
+.element-experi {
+  border-bottom: groove blue 2px;
+  width: 800px;
+  margin-left: 1cm;
+}
+.element-experi .separation {
+  display: flex;
+  margin-top: 1cm;
+  justify-content: space-between;
+  margin-bottom: 1cm;
+}
+.element-experi img {
+  width: 6cm;
+  height: 6cm;
+}
+.element-experi p {
+  width: 6cm;
+  color: plum;
+}
+.element-experi h5 {
+  color: aqua;
+  font-size: 30px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.element-experi i {
+  color: azure;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.element-contact {
+  margin-top: 2cm;
+  margin-left: 2cm;
+}
+.element-contact h1 {
+  color: aqua;
+  text-decoration-line: underline;
+  font-size: 50px;
+  text-align: center;
+}
+.element-contact .phone {
+  color: white;
+  font-size: 25px;
+}
+.element-contact .phone p {
+  color: gray;
+  font-size: 35px;
+}
+.element-contact input {
+  width: 50%;
+  height: 3cm;
+  background-color: pink;
+  border-radius: 10px;
+}
+.element-contact .form p {
+  font-size: 25px;
+  color: palevioletred;
+}
+
+/*# sourceMappingURL=style.css.map */

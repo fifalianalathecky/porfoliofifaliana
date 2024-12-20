@@ -1,0 +1,12 @@
+@mixin respond-to($breackpoint){
+    @if $breackpoint == "tablette"{
+        @media screen and ( max-width : $tablette){
+            @content;
+        }   
+        }
+        @else if $breackpoint == "mobile"{
+            @media screen and ( max-width : $mobile){
+                @content;
+        }
+    }      
+}

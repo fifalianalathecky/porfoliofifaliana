@@ -1,0 +1,36 @@
+.element-contact{
+    margin-top: 2cm;
+    margin-left: 2cm;
+    h1{
+        color: aqua;
+        text-decoration-line: underline;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+    .phone{
+        
+        color: white;
+        font-size: 25px;
+
+        p{
+            color: gray;
+            font-size: 35px;
+        }
+
+       
+    }
+    input{
+        width: 50%;
+        height: 3cm;
+        background-color: pink;
+        border-radius: 10px;
+    }
+    .form{
+        p{
+            font-size: 25px;
+            color: palevioletred;
+        }
+    }
+
+}

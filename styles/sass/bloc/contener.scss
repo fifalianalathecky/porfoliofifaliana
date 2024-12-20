@@ -1,0 +1,50 @@
+.homes{
+    width: 700px;
+    display: block;
+    margin-left: 2cm;
+    border-bottom: inset blue 3px;
+    @include respond-to("mobile"){
+        flex-direction: column;
+    }
+
+    .nom{
+        color: azure;
+        margin-bottom: 5px;
+        font-size: 30px;
+        border-bottom:double blue 2px ;
+
+        .name{
+            color: $primary-color;
+        
+        }
+       
+    }
+    .paragraph{
+        padding-top: 1cm;
+        font-size: 20px;
+        color:plum;
+
+        .specifc{
+            color:aqua;
+        }
+        button{
+            width: 4cm;
+            height: 1cm;
+            border-radius: 20px;
+            background-color: plum;
+            margin-left: 3cm;
+            color: white;
+            margin-top: 20px;
+            
+        }
+    }
+    .fille{
+        img{
+            width: 5cm;
+            height: 5cm;
+            border-radius: 100px;
+            margin-left: 100%;
+        }
+
+    }
+}

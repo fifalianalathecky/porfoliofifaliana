@@ -1,0 +1,31 @@
+.element-experi{
+    border-bottom: groove  blue 2px;
+    width: 800px;
+    margin-left: 1cm;
+    .separation{
+        display: flex;
+    margin-top: 1cm;
+    justify-content: space-between;
+    margin-bottom: 1cm;
+    }
+    img{
+       width: 6cm; 
+       height: 6cm;
+    }
+    p{
+        width: 6cm;
+        color: plum;
+    }
+    h5{
+        color: aqua;
+        font-size: 30px;
+        text-align: center;
+        text-decoration-line: underline;
+    }
+    i{
+        color: azure;
+        font-size: 20px;
+        margin-bottom: 20px;
+        
+    }
+}

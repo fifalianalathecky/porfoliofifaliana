@@ -1,0 +1,65 @@
+.bloc-navigation{
+    width: 250px;
+    height: 100vh;
+    // border:5px solid white;
+    background-color: $primary-color;
+    // margin-top: -40px;
+    // position:relative;
+    @include respond-to("mobile"){
+        width:1000px;
+        overflow: hidden;
+        height: 100px;
+        display: flex;
+    }
+
+    ul{
+        list-style-type: none;
+        text-align: center;
+        margin-top: 20px;
+        // background-color: $primary-color;
+        @include respond-to("mobile"){
+            position:absolute;
+            bottom:0;
+            left:2cm;
+            width:inherit;
+            display: flex;
+        }
+       }
+    .image{
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    img{
+        width: 6cm;
+        height: 7CM;
+        border-radius: 100px;
+        @include respond-to("mobile"){
+            width: 2cm;
+            height: 2cm;
+        }
+        
+    
+    }
+    .titre{
+        word-wrap: break-word;
+        font-size: 10px;
+        text-align: center;
+        color: azure;
+        @include respond-to("mobile"){
+            font-size: 5px;
+        }
+    }
+    li a{
+        text-decoration: none;
+        color: azure;
+        @include respond-to("mobile"){
+            padding-right: 20px;
+            font-size: 5px;
+        }
+
+}
+    li{
+        margin-top: 30px;
+    }
+}
